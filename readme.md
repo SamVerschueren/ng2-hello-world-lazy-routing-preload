@@ -1,5 +1,7 @@
 # ng2-hello-world-lazy-routing-preload
 
+[![Build Status: Linux](https://travis-ci.org/SamVerschueren/ng2-hello-world-lazy-routing-preload.svg?branch=master)](https://travis-ci.org/SamVerschueren/ng2-hello-world-lazy-routing-preload) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/csxuj06rkhx5f2qq/branch/master?svg=true)](https://ci.appveyor.com/project/SamVerschueren/ng2-hello-world-lazy-routing-preload/branch/master)
+
 > Angular2 Hello World lazy routing application with preloading
 
 
@@ -20,10 +22,6 @@ $ npm start
 ```
 $ npm run build
 ```
-
-> Note: Rollup will throw quite some warnings indicating that `The 'this' keyword is equivalent to 'undefined' at the top level of an ES module`. You can safely ignore these.
-
-This will compile the source files with [AoT compilation](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html) and creates one single [treeshaked](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html#!#tree-shaking) bundle in the `build` directory.
 
 
 ## Related
